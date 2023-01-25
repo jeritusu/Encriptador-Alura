@@ -16,7 +16,7 @@ main{
     margin-left: 80px;
 }
 
-.text-area{
+.text-area1{
     border: none;
     color: #0A3871;
     margin-top: 50px;
@@ -28,3 +28,61 @@ main{
 .text-area:focus{
     outline: none;
 }
+
+.text-area2{
+    background: white;
+    background-image: url("imagenes/muneco.jpg");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 20px;
+    color: #0A3871;
+    margin-left: 120px;
+    margin-top: 30px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 47px;
+    margin-left: 30px;
+    width: 280px;
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 47px;
+    width: 280px;
+}
+
+.btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 47px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 280px;
+}
+
+
+
