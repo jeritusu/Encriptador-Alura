@@ -17,9 +17,10 @@ main{
 }
 
 .text-area1{
+    width: 20em;
     border: none;
     color: #0A3871;
-    margin-top: 50px;
+    margin-top: 40px;
     text-transform: lowercase;
 }
 
@@ -30,16 +31,19 @@ main{
 }
 
 .text-area2{
+    width: 25em;
     background: white;
-    background-image: url("imagenes/muneco.jpg");
-    background-repeat: no-repeat;
+    background-image: url("imagenes/muneco.jpg"), url("imagenes/Frame 5.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom; 
     border: none;
     border-radius: 20px;
     color: #0A3871;
-    margin-left: 120px;
+    margin-left: 100px;
     margin-top: 30px;
     padding-left: 20px;
-    position: fixed;
+    padding-top: 5px;
+    position: absolute;
 }
 
 .mensaje:focus{
@@ -48,7 +52,7 @@ main{
 
 .buttons{
     display: flex;
-    margin-top: 18px;
+    margin-top: 160px;
 }
 
 .btn-desencriptar{
@@ -80,9 +84,23 @@ main{
     height: 47px;
     margin-left: 108px;
     margin-top: 402px;
-    position: absolute;
+    position: center;
     width: 280px;
 }
 
+@media screen and (max-width:800px){
 
+    .text-area1, .text-area2{
+        width: auto;
+    }
+
+    .btn-copiar, .btn-encriptar, .btn-desencriptar{
+        text-align: center;
+        width: auto;
+        
+    }
+
+   
+    
+}
 
