@@ -17,8 +17,10 @@ main{
 }
 
 .text-area1{
-    width: 20em;
+    width: 70%;
+    height: 50%;
     border: none;
+    resize: none;
     color: #0A3871;
     margin-top: 40px;
     text-transform: lowercase;
@@ -26,19 +28,21 @@ main{
 
 ::placeholder{color: #0A3871;}
 
-.text-area:focus{
+.text-area1, .text-area2:focus{
     outline: none;
 }
 
 
 .text-area2{
     display: block;
-    width: 25em;
+    width: 60%;
+    resize: none;
     background: white;
     background-image: url("imagenes/muneco.jpg"), url("imagenes/Frame 5.jpg");
     background-repeat: no-repeat, no-repeat;
     background-position: top, bottom; 
     background-size: 70%, 70%;
+    border: 0;
     border: none;
     border-radius: 20px;
     color: #0A3871;
@@ -49,13 +53,13 @@ main{
     position: relative;
 }
 
-.mensaje:focus{
+/* .mensaje:focus{
     outline: none;
-}
+} */
 
 .buttons{
     display: flex;
-    margin-top: 160px;
+    margin-top: 20%;
 }
 
 .btn-desencriptar{
@@ -92,6 +96,13 @@ main{
     width: 280px;
 }
 
+footer{
+    background: #F3F5FC;
+    font-family: 'Indie Flower', cursive;
+    width: 100%;
+    text-align: center;
+}
+
 @media screen and (max-width:800px){
 
     .text-area1{
@@ -115,9 +126,8 @@ main{
         text-align: center;
         width: auto;
         
+        
     }
-
-   
     
 }
 
