@@ -40,3 +40,7 @@ function desencriptar(stringDesencriptada){
     }
     return stringDesencriptada;
 }
+
+function btnCopiar() {
+    navigator.clipboard.writeText(textArea2.value);
+}
